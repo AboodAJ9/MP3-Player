@@ -1,0 +1,91 @@
+.root{
+	-fx-background-color: linear-gradient(to left, #868F96 , #596164);
+}
+
+.main-text {
+	-fx-alignment: center;
+	-fx-font-family: Helvetica;
+	-fx-font-size: 30;
+	-fx-text-fill: linear-gradient(to left, #A1C4FD , #C2E9FB);
+}
+
+.second-text {
+	-fx-alignment: center;
+	-fx-font-family: Helvetica;
+	-fx-font-size: 20;
+	-fx-text-fill: linear-gradient(to left, #A1C4FD , #C2E9FB);
+}
+
+#controller{
+	-fx-alignment: center;
+	-fx-padding: 10;
+}
+
+.control-button {
+	-fx-min-height: 32;
+	-fx-min-width: 32;
+	-fx-background-color: #00008B;
+	-fx-background-radius: 16;
+	-fx-text-fill: white;
+}
+
+.control-button:hover {
+	-fx-background-color: red;
+}
+
+.playlist-button{
+	-fx-min-height: 32;
+	-fx-min-height: 32;
+	-fx-min-width: 32;
+	-fx-background-color: red;
+	-fx-background-radius: 16;
+	-fx-text-fill: white;
+}
+
+.playlist-button:hover{
+	-fx-background-color: #00008B;
+}
+
+#table{
+	-fx-background-color: linear-gradient(to left, #868F96 , #596164);
+	-fx-padding: 50.0 ;
+	-fx-background-radius: 50;
+}
+
+.time-slider .track{
+	
+	-fx-background-color: linear-gradient(to right, #2D819D 20%, #969696 20%);
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+
+.time-slider{
+	-fx-pref-width: 380px;
+}
+
+.slider .track{
+	-fx-background-radius: 10; 
+	-fx-background-color: -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border)
+          -track-color;
+}
+
+.slider .thumb{
+	-fx-pref-height: 18px;
+	-fx-pref-width: 10px;
+	-fx-background-radius: 5;
+	
+}
+
+.volSlider{
+	-fx-show-tick-labels: true;
+	-fx-show-tick-marks: true;
+}
+
+#headerLabel{
+	-fx-alignment: bottom-center ;
+	-fx-font-family: Helvetica;
+	-fx-font-size: 40;
+	-fx-text-fill: linear-gradient(to left, #A1C4FD , #C2E9FB);
+}
