@@ -1,9 +1,12 @@
 # Java
 *.class
-*.jar
-!lib/*.jar
 *.log
 *.tmp
+
+# JARs – nur libs/ wird einbezogen
+*.jar
+!libs/*.jar
+
 
 # Maven
 target/
