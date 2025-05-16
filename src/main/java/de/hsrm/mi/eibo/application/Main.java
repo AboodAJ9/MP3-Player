@@ -57,7 +57,7 @@ public class Main extends Application {
 			}
 			
 			this.primaryStage = primaryStage;
-			primaryStage.getIcons().add(new Image("file:./obamna.png"));
+			primaryStage.getIcons().add(new Image(getClass().getResource("/de/hsrm/mi/eibo/assets/obamna.png").toExternalForm()));
 			primaryStage.setScene(scene);
 			primaryStage.show();
 			
