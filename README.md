@@ -1,5 +1,19 @@
 # MP3Player
 
+Ein einfacher MP3-Player in Java mit JavaFX GUI.
+
+Features:
+
+- Songs abspielen, pausieren, überspringen zurückspringen, Lautstärke kontrollieren. 
+
+- Shuffle-Modus für zufällige Wiedergabe
+
+- Timebar zur Kontrolle der aktuellen Wiedergabezeit
+
+- Anzeige und Verwaltung der Playlist
+
+- Neue Songs von deinem Rechner zur Playlist hinzufügen
+
 ## Voraussetzungen
 
 - Java JDK 11 oder höher
