@@ -21,7 +21,7 @@ Führe im Projektordner folgende Befehle im Terminal aus (du kannst alle auf ein
 
 ```bash
 mvn install:install-file "-Dfile=libs/eibo_simpleminim_new.jar" "-DgroupId=de.hsrm.mi.eibo" "-DartifactId=simpleminim" "-Dversion=1.0" "-Dpackaging=jar"
-mvn install:install-file "-Dfile=libs/jl1.0.1.jar" "-DgroupId=javazoom" "-DartifactId=jl" "-Dversion=1.0.1" "-Dpackaging=jar
+mvn install:install-file "-Dfile=libs/jl1.0.1.jar" "-DgroupId=javazoom" "-DartifactId=jl" "-Dversion=1.0.1" "-Dpackaging=jar"
 mvn install:install-file "-Dfile=libs/jsminim.jar" "-DgroupId=ddf.minim" "-DartifactId=jsminim" "-Dversion=2.2.2" "-Dpackaging=jar"
 mvn install:install-file "-Dfile=libs/jsminim.jar" "-DgroupId=ddf.minim" "-DartifactId=jsminim" "-Dversion=2.2.2" "-Dpackaging=jar"
 mvn install:install-file "-Dfile=libs/mp3agic.jar" "-DgroupId=com.mpatric" "-DartifactId=mp3agic" "-Dversion=0.9.1" "-Dpackaging=jar"
