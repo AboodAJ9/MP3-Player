@@ -54,6 +54,8 @@ public class Main extends Application {
 				System.err.println("❌ CSS nicht gefunden!");
 			} else {
 				System.out.println("✅ Gefunden: " + url);
+				scene.getStylesheets().add(url.toExternalForm());
+
 			}
 			
 			this.primaryStage = primaryStage;
