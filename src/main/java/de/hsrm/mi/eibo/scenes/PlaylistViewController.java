@@ -115,11 +115,8 @@ public class PlaylistViewController {
 			if (response == JFileChooser.APPROVE_OPTION) {
 				File file = new File(fileChooser.getSelectedFile().getAbsolutePath());
 				playlist.tracklist.add(new Track(file.getAbsolutePath()));
-//				System.out.println(playlist.tracklist);
 				changedSong();
 			}
-
-			// System.out.println("Hallo Palestine");
 		});
 
 	}

@@ -55,7 +55,7 @@ public class MP3Player {
 				currentTime.setValue(audioPlayer.position());
 				endtime.setValue(currentSong.getDuration());
 				}catch(NullPointerException e) {
-					System.out.println("");
+					e.printStackTrace();
 				}
 			}
 		});

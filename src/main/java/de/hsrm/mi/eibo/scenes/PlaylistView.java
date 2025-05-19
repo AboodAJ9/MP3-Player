@@ -29,6 +29,8 @@ public class PlaylistView extends BorderPane {
 
 		playlistView = new ListView<>();
 		this.setCenter(playlistView);
+		playlistView.setFixedCellSize(40); // For consistent row height
+		playlistView.getStyleClass().add("modern-list");
 		playlistView.setId("table");
 		
 		final Image zuruckbutton = new Image(getClass().getResource("/de/hsrm/mi/eibo/assets/home1.png").toExternalForm());
