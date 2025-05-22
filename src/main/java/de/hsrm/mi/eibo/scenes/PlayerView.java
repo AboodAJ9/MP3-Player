@@ -131,7 +131,7 @@ public class PlayerView extends BorderPane {
 		loopButton.setGraphic(loopbutton1);
 		shuffleButton = new Button();
 		shuffleButton.setGraphic(shufflebutton1);
-		switchButton.getStyleClass().add("playlist-button");
+		switchButton.getStyleClass().add("control-button");
 		playButton.getStyleClass().add("control-button");
 		fowardButton.getStyleClass().add("control-button");
 		backwardButton.getStyleClass().add("control-button");
